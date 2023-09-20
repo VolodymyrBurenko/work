@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+   color: #000;
+}
+
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+/* --- --- ---*/
+
+[class*="__container"] {
+   margin: 0 auto;
+   max-width: 1200px;
+   text-align: justify;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+html, body {
+   min-height: 100vh;
+   background-color: #ffffff;
+   color: #202020;
+   font-size: 18px;
+   font-family: 'Roboto', san-serif;
+   scroll-behavior: smooth;
+   text-rendering: optimizeLegibility;
+}
